@@ -66,3 +66,8 @@ Start the program
 ```
 
 Disconnect from tmux session
+
+## Future Plans
+
+Add monitoring and warning of the sensor's battery levels. 
+Possible website monitoring, and ability to trigger watering by command.
