@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6E5E9552C33952A00CE7762 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E5E9542C33952A00CE7762 /* main.cpp */; };
+		F6E5E95F2C39F3AE00CE7762 /* libcurl.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5E95C2C39F3AE00CE7762 /* libcurl.3.tbd */; };
+		F6E5E9602C39F3AE00CE7762 /* libcurl.4.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5E95D2C39F3AE00CE7762 /* libcurl.4.tbd */; };
+		F6E5E9612C39F3AE00CE7762 /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5E95E2C39F3AE00CE7762 /* libcurl.tbd */; };
+		F6E5E9642C39F3BE00CE7762 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5E9622C39F3BE00CE7762 /* libxml2.tbd */; };
+		F6E5E9652C39F3BE00CE7762 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E5E9632C39F3BE00CE7762 /* libxml2.2.tbd */; };
+		F6E5E9682C39F5FE00CE7762 /* waterPlant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E5E9662C39F5FE00CE7762 /* waterPlant.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,12 @@
 
 /* Begin PBXFileReference section */
 		F6E5E9512C33952A00CE7762 /* Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Water; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6E5E9542C33952A00CE7762 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6E5E95C2C39F3AE00CE7762 /* libcurl.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.3.tbd; path = usr/lib/libcurl.3.tbd; sourceTree = SDKROOT; };
+		F6E5E95D2C39F3AE00CE7762 /* libcurl.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.4.tbd; path = usr/lib/libcurl.4.tbd; sourceTree = SDKROOT; };
+		F6E5E95E2C39F3AE00CE7762 /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
+		F6E5E9622C39F3BE00CE7762 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		F6E5E9632C39F3BE00CE7762 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		F6E5E9662C39F5FE00CE7762 /* waterPlant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = waterPlant.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E5E9642C39F3BE00CE7762 /* libxml2.tbd in Frameworks */,
+				F6E5E9652C39F3BE00CE7762 /* libxml2.2.tbd in Frameworks */,
+				F6E5E95F2C39F3AE00CE7762 /* libcurl.3.tbd in Frameworks */,
+				F6E5E9602C39F3AE00CE7762 /* libcurl.4.tbd in Frameworks */,
+				F6E5E9612C39F3AE00CE7762 /* libcurl.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +58,7 @@
 			children = (
 				F6E5E9532C33952A00CE7762 /* Water */,
 				F6E5E9522C33952A00CE7762 /* Products */,
+				F6E5E95B2C39F3AE00CE7762 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +73,21 @@
 		F6E5E9532C33952A00CE7762 /* Water */ = {
 			isa = PBXGroup;
 			children = (
-				F6E5E9542C33952A00CE7762 /* main.cpp */,
+				F6E5E9662C39F5FE00CE7762 /* waterPlant.cpp */,
 			);
 			path = Water;
+			sourceTree = "<group>";
+		};
+		F6E5E95B2C39F3AE00CE7762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E5E9632C39F3BE00CE7762 /* libxml2.2.tbd */,
+				F6E5E9622C39F3BE00CE7762 /* libxml2.tbd */,
+				F6E5E95C2C39F3AE00CE7762 /* libcurl.3.tbd */,
+				F6E5E95D2C39F3AE00CE7762 /* libcurl.4.tbd */,
+				F6E5E95E2C39F3AE00CE7762 /* libcurl.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E5E9552C33952A00CE7762 /* main.cpp in Sources */,
+				F6E5E9682C39F5FE00CE7762 /* waterPlant.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +272,7 @@
 		F6E5E9592C33952A00CE7762 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -252,6 +281,7 @@
 		F6E5E95A2C33952A00CE7762 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
