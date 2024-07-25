@@ -1,4 +1,4 @@
- Self Watering Plant System
+## Self Watering Plant System
 
 This project uses a Raspberry Pi, along with a Ecowitt soil sensor to control a pump to water plants. 
 
